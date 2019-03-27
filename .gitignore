@@ -5,6 +5,7 @@ CMakeFiles
 *.exe
 *.so
 *.dll
+.vscode
 /*.cmake
 Makefile
 sago_background
