@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.9)
+project (sago_background)
+find_package(Boost COMPONENTS program_options REQUIRED)
+add_executable(sago_background src/sago_background.cpp)
+TARGET_LINK_LIBRARIES( sago_background ${Boost_LIBRARIES} )
